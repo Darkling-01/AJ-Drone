@@ -17,43 +17,4 @@ The main goal is to produce these drone to students or anyone interested in lear
 # File Structure
 (The file structure might change overtime.)
 
-AJ-Drone/
-│
-├── code/
-│   ├── firmware/                     # Drone firmware
-│   ├── software_interface/           # Interface logic between drone and software
-│
-├── docs/
-│   ├── overview.md
-│   ├── modules/                      # Documentation on individual modules
-│
-├── include/
-│   ├── flightControl.h
-│   ├── communication.h
-│
-├── src/
-│   ├── modules/
-│   │   ├── flightControl/
-│   │   │   ├── flightControl.cpp
-│   │   │   ├── flightControl.h
-│   │   ├── communication/
-│   │   │   ├── communicationHandler.cpp
-│   │   │   ├── communicationHandler.h
-│   │   ├── sensors/
-│   │   │   ├── sensorManager.cpp
-│   │   │   ├── sensorManager.h
-│   ├── networking/
-│   │   ├── networkCommunication.cpp
-│   │   ├── networkCommunication.h
-│   ├── scripts/
-│   ├── tests/
-│   │   ├── modules/
-│   │   │   ├── flightControl_tests.cpp
-│   │   │   ├── communication_tests.cpp
-│   ├── config/
-│   │   ├── flight_params.yaml
-│   │   ├── network_settings.json
-│
-├── schematics/
-│   ├── designs/
-│   ├── circuits/
+AJ-Drone/ │ ├── code/ # Drone-specific code and firmware │ ├── firmware/ # Main firmware for the drone │ ├── software_interface/ # Interface logic between drone and software │ ├── docs/ # Documentation for the project │ ├── overview.md # Project overview │ ├── modules/ # Module-specific documentation │ ├── include/ # Header files for the modules │ ├── flightControl.h │ ├── communication.h │ ├── src/ # Main source code │ ├── modules/ # Drone functional modules │ │ ├── flightControl/ # Flight control logic │ │ │ ├── flightControl.cpp │ │ │ ├── flightControl.h │ │ ├── communication/ # Communication module │ │ │ ├── communicationHandler.cpp │ │ │ ├── communicationHandler.h │ │ ├── sensors/ # Sensor data management │ │ │ ├── sensorManager.cpp │ │ │ ├── sensorManager.h │ ├── networking/ # Networking code for drone communication │ │ ├── networkCommunication.cpp │ │ ├── networkCommunication.h │ ├── scripts/ # Scripts for testing and automation │ ├── tests/ # Unit tests for the modules │ │ ├── modules/ # Module-level tests │ │ │ ├── flightControl_tests.cpp │ │ │ ├── communication_tests.cpp │ ├── config/ # Configuration files │ │ ├── flight_params.yaml │ │ ├── network_settings.json │ ├── schematics/ # Hardware design and circuit files │ ├── designs/ # PCB and hardware designs │ ├── circuits/ # Circuit diagrams
